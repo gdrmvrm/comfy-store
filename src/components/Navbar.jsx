@@ -61,7 +61,11 @@ const Navbar = () => {
         <div className='navbar-end'>
           {/* THEME ICONS */}
           <label className='swap swap-rotate'>
-            <input type='checkbox' onChange={handleTheme} />
+            <input
+              type='checkbox'
+              onChange={handleTheme}
+              checked={theme === themes.dark}
+            />
             <BsSunFill className='swap-on h4 w-4' />
             <BsMoonFill className='swap-off h4 w-4' />
           </label>
