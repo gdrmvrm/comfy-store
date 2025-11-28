@@ -10,7 +10,7 @@ const About = () => {
         <div className='stats bg-primary shadow'>
           <div className='stat'>
             <div
-              className='stat-title text-primary-content text-4xl font-bold tracking-widest'
+              className='stat-title text-primary-content text-xl font-bold tracking-widest'
               style={{ fontFamily: 'Pacifico, cursive' }}
             >
               Comfy
@@ -18,11 +18,19 @@ const About = () => {
           </div>
         </div>
       </div>
-      <p className='mt-6 text-lg leading-8 max-w-2xl mx-auto'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic veniam
-        odit, officiis eos mollitia alias, doloremque, aspernatur ratione
-        asperiores voluptas labore minus dolores reprehenderit corporis quos.
-        Assumenda molestias harum dignissimos?
+      <p className='mt-6 text-lg leading-8 max-w-5xl mx-auto'>
+        Our Story Born from a passion for timeless design and everyday comfort,
+        Comfy Store started as a small project to curate furniture that blends
+        quality, affordability and personality. We wanted to make it easy for
+        people to build living spaces they love — whether that’s a cozy reading
+        nook, a family dining room, or a modern lounge. What We Stand For
+        Thoughtfully chosen products — we hand-select each item for durability,
+        design and value. Transparent pricing — honest prices so you know you’re
+        getting real value without compromise. Customer satisfaction — we aim to
+        make the shopping experience smooth and enjoyable, from browsing to
+        delivery. Your Home, Your Way Explore our range and find pieces that fit
+        your taste and lifestyle. We believe comfort isn’t just a luxury — it’s
+        everyday living.
       </p>
     </>
   );
