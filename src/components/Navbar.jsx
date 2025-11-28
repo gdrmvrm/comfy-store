@@ -35,9 +35,10 @@ const Navbar = () => {
           {/* Title */}
           <NavLink
             to='/'
-            className='hidden lg:flex btn btn-primary text-3xl items-center '
+            className='hidden lg:flex text-2xl items-center '
+            style={{ fontFamily: 'Pacifico, cursive' }}
           >
-            CS
+            Comfy
           </NavLink>
           {/* DROPDOWN */}
           <div className='dropdown'>

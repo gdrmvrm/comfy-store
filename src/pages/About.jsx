@@ -9,8 +9,11 @@ const About = () => {
         </h1>
         <div className='stats bg-primary shadow'>
           <div className='stat'>
-            <div className='stat-title text-primary-content text-4xl font-bold tracking-widest'>
-              comfy
+            <div
+              className='stat-title text-primary-content text-4xl font-bold tracking-widest'
+              style={{ fontFamily: 'Pacifico, cursive' }}
+            >
+              Comfy
             </div>
           </div>
         </div>
