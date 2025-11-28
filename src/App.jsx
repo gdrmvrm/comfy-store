@@ -14,6 +14,12 @@ import {
   SingleProduct,
   Register
 } from './pages';
+import { ErrorElement } from './components';
+
+//loaders
+import { loader as homeLoader } from './pages/Home';
+
+//actions
 
 const router = createBrowserRouter([
   {
@@ -23,7 +29,9 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home />
+        element: <Home />,
+        errorElement: <ErrorElement />,
+        loader: homeLoader
       },
       {
         path: 'products',
