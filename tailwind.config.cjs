@@ -6,6 +6,16 @@ export default {
   },
   plugins: [require('@tailwindcss/typography'), require('daisyui')],
   daisyui: {
-    themes: ['bumblebee', 'dracula']
+    themes: [
+      'bumblebee',
+      {
+        dracula: {
+          ...require('daisyui/src/theming/themes')['dracula'],
+          primary: '#f9d72f', // from bumblebee
+          secondary: '#e0a82e', // from bumblebee
+          accent: '#df7e07' // from bumblebee
+        }
+      }
+    ]
   }
 };
