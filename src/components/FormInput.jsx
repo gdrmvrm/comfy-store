@@ -1,4 +1,5 @@
 const FormInput = ({ label, name, type, defaultValue }) => {
+
   return (
     <div className='form-control '>
       <label className='label'>
